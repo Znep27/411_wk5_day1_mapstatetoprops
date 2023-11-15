@@ -1,11 +1,9 @@
-export default {
+const state = {
     // Add user property here
-    user: [
-         {
+    user: {
             "username": "test-user-1",
             "email": "test-user@example.com"
-         }
-    ],
+          },
     cars: [
         {
            "id": 1,
@@ -249,4 +247,5 @@ export default {
         }
     ]
   };
+  export default state;
   
